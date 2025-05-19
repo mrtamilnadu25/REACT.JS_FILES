@@ -31,16 +31,19 @@ padding: 0;
     transition: 9s ease;
 
 }
+button{
+    transition: 1s ease;
+}
 button:hover{
     background-color: rgb(99, 107, 107);
     border-radius: 10px;
 }
 .btn{
     gap: 20px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin: 10px 75px 1px;
+    margin: 10px 15px 1px;
     flex-direction: column;
     transform: translateX(50%);
 
