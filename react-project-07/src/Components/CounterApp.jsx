@@ -30,7 +30,7 @@ let [sample1,setSample]=useState(()=>{return hfun()})
   
   <div>
      
-      <h1>click to unlock reward💎-{count}</h1>
+      <h1 className="srh">Click To Unlock Rewards💎-{count}</h1>
       <button onClick={handleIncrease} style={{
         backgroundColor:"gray",
         width:"100px",
@@ -45,8 +45,12 @@ let [sample1,setSample]=useState(()=>{return hfun()})
       }} className="btn">Decrease</button>
 
       {
-        count>=10 ? ( <p>Your reward here🎁</p>  ):(<p>Please unlock your reward🛒</p>)
+        count>=10 ? ( <p>Your unlocked a 10% discount🛒</p>  ):(<p>Click to 10 times unlock your Reward🔒</p>)
       }
+      {
+        count>=20 && <p>You're a click master ❤</p>
+      }
+      {count>=21 && <p>Nice bro Make a some money🤑</p>}
 
   </div>
   
