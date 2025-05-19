@@ -72,10 +72,8 @@ let user="S.K7"
   
   return <main className="Main">
 
-    <h3 style={MainStyle}>Main Content-{user}</h3>
-    <Button onClick={prints}>Click Me!</Button>
-    <NewButton onClick={(e)=>{prints1(e)}}>Dublicate</NewButton>
-    <NewButton1 onClick={(e)=>{prints1(e)}}>Dublicate2</NewButton1>
+    
+    
     <CounterApp/>
 
   </main>;

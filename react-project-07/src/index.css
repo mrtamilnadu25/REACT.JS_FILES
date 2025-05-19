@@ -13,7 +13,7 @@ padding: 0;
     
 }
 .Footer{
-    background-color: orange;
+    background-color: rgb(5, 238, 55);
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -37,10 +37,13 @@ button:hover{
 }
 .btn{
     gap: 20px;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 45px 1px;
+    margin: 10px 75px 1px;
+    flex-direction: column;
+    transform: translateX(50%);
+
     /* flex-direction: row; */
 
 
