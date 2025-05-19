@@ -111,7 +111,7 @@ export default CounterApp;
 
 function LoadingComponent(){
   return(
-    <h4>Loadind...</h4>
+    <h4>Loading...</h4>
   )
 }
 function SuccesComponent(){
