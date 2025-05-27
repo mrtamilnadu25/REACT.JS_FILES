@@ -1,10 +1,10 @@
-*{
+ *{
 margin: 0;
 padding: 0;
 }
 .Header{
     background-color: orange;
-    /* color: white; */
+    
     align-items: center;
     justify-content: center;
     display: flex;
@@ -15,7 +15,7 @@ padding: 0;
 .Footer{
     background-color: rgb(5, 238, 55);
     display: flex;
-    /* align-items: center; */
+    
     justify-content: center;
     height: 10vh;
 }
@@ -40,7 +40,7 @@ button:hover{
 }
 .btn{
     gap: 20px;
-    /* display: flex; */
+  
     justify-content: center;
     align-items: center;
     margin: 10px 15px 1px;
@@ -49,7 +49,7 @@ button:hover{
     border: none;
     color: white;
 
-    /* flex-direction: row; */
+   
 
 
 }
@@ -70,3 +70,5 @@ p{
     display: flex;
     margin: 10px;
 }
+
+ 

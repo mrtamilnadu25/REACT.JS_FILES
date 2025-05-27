@@ -10,7 +10,7 @@ function App() {
   return (
   <>   
   <Header author={author}/>
-  {/* <Loading/> */}
+  <Loading/>
   <Main/>
   <Footer author="sk"/>
   </>

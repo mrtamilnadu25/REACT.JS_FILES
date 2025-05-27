@@ -1,0 +1,136 @@
+*{
+margin: 0;
+padding: 0;
+}
+.Header{
+    background-color: orange;
+    /* color: white; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    
+}
+.Footer{
+    background-color: rgb(5, 238, 55);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 10vh;
+}
+.Main{
+    overflow: auto;
+    width: 100%;
+    height: 80vh;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 9s ease;
+
+}
+button{
+    transition: 1s ease;
+}
+button:hover{
+    background-color: rgb(99, 107, 107);
+    border-radius: 10px;
+}
+.btn{
+    gap: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 1px;
+    flex-direction: column;
+    transform: translateX(50%);
+    border: none;
+    color: white;
+
+    /* flex-direction: row; */
+
+
+}
+
+.srh{
+    background-color: rgb(248, 112, 21);
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+.k7{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius:50%;
+    border: 2px solid white;
+  
+}
+.one{
+    display: flex;
+    margin: 2%;
+
+}
+.headers{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+.footess{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.f1{
+    display: flex;
+    margin: 2%;
+    align-items: center;
+}
+.f2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contextApi{
+    background-color: rgb(73, 92, 92);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    color: white;
+    
+}
+.under{
+    height: 80vh;
+    background-color: burlywood;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.under1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    /* margin-top: 5px; */
+    /* margin: 10px; */
+    
+}

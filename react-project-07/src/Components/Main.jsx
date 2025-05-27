@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 // import Content from "./CounterApp";
 import CounterApp from "./CounterApp";
+import Loading from './Loading'
+import "./App.css"
 
 let Button =styled.button
 
@@ -75,6 +77,7 @@ let user="S.K7"
     
     
     <CounterApp/>
+    <Loading/>
 
   </main>;
 };
