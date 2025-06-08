@@ -11,6 +11,7 @@ import About from './Components/About';
 import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
 import Productlist from './Components/Productlist';
 import ProductDetails3 from './Components/ProductDetails3';
+
 export let userContext= createContext()
 function App() {
 
@@ -42,7 +43,10 @@ function App() {
     <Route path='/' element={<Home/>}/>
     <Route path='About' element={<About/>}/>
     <Route path='Contacts' element={<Contacts/>}/>
-    <Route path='Login/:user2' element={<Login/>}/>
+    <Route path='Login/:user2' element={<Login/>}>
+    
+   
+    </Route>
     <Route path='Product'element={<Product/>}>
     <Route index element={<Productlist/>}/>
       <Route path='list' element={<Productlist/>}/>

@@ -1,0 +1,69 @@
+import React, { useEffect, useState } from "react";
+import Button from "react-bootstrap/esm/Button";
+import useFetch from "../../../18-Custom Hook/src/Components/custom-hook/useFetch";
+
+const Productlist = () => {
+//   let [products,setProducts]=useState([])
+//  let fetched= useEffect(()=>{
+//   fetch("http://localhost:4000/products",{method:"GET"})
+//   .then((res)=>{
+// return res.json()
+// .then((data)=>{setProducts(data);
+// })
+
+//   })
+//  },[])
+let {products,isLoading,error}=useFetch("http://localhost:4000/products")
+
+
+
+//  {
+//     "_id": 1,
+//     "title": "Long sleeve Jacket",
+//     "isNew": true,
+//     "oldPrice": "200",
+//     "price": 150,
+//     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+//     "category": "women",
+//     "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+//     "rating": 4,
+//     "id": "9b83"
+//   }
+ 
+  return (<div className="hole0">
+    {/* <h4>Product List</h4> */}
+    {
+      products.map(products=>(
+       <section className="hole">
+        <div>
+          <h6>Title : {products.title}</h6>
+        </div>
+        <div className="imgstyle">
+             
+          <img src={products.image} alt="..."  className="setImg"/>
+        </div>
+        <div className="setalign">
+          <div className="titles">
+           <h6>Category : {products.category}</h6>
+           <h6>Price : {products.price}</h6>
+           <h6>Rating : {products.rating}</h6>
+          </div>
+           <p className="description">Description : {products.description}</p>
+        </div>
+        <div className="buttonSpace">
+          
+          <button className="btn1">Addtocart</button>
+          <button className="btn2">Buy now</button>
+          <button className="btn3">Delete</button>
+          <button className="btn4">Cart</button>
+        </div>
+       </section> 
+      ))
+    }
+  </div>
+    
+    
+  )
+};
+
+export default Productlist;
