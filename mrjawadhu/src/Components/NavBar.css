@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar143{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 10vh;
+    position: sticky;
+    z-index: 99;
+    top: 0px;
+    }
+
+    .nav-logos{
+        color: white;
+        margin-left: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+
+    }
+    .nav-menu{
+        display: grid;
+        grid-template-columns: repeat(7,auto);
+        grid-gap: 10px;
+        text-align: center;
+        width: 80vw;
+        justify-content: end;
+        list-style: none;
+        
+
+    }
+    .nav-links{
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        
+        
+    }
+    .nav-links:hover{
+        background-color: black;
+        border-radius: 5px;
+        transition: all .2s ease-out;
+    }
+    .menu-icon{
+        display: none ;
+    }
+    @media only screen and (max-width:960px) {
+        .menu-icon{
+        display: block ; 
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2.1rem;
+        transform: translate(-100%,40%);
+        cursor: pointer;
+       color: white;
+    } 
+    .nav-menu{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 90vh;
+        top: 10vh;
+        /* background-color: aqua; */
+        position:absolute;
+        transition: all ease .4s;
+        overflow: auto;
+        left: -100%;
+        
+
+
+    }
+    .nav-menu.active{
+        left: 0;
+        background-color: gray;
+        position: absolute;
+        transition: all .5s ease;
+        z-index: 1;
+        opacity: 1;
+
+    }
+    .nav-links{
+      
+      width: 100%;
+      
+      text-align: center;
+      display: table;
+     
+      padding: 1.7rem;
+
+    }
+
+    }

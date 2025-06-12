@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/esm/Button";
 import Loading from "./Loading"
-import { Route ,BrowserRouter as Router ,Routes, useNavigate } from "react-router-dom";
+import { Link, Route ,BrowserRouter as Router ,Routes, useNavigate } from "react-router-dom";
 import useFetch from "./custom-hook/useFetch";
 import Product from "./Product";
 import axios from "axios";
@@ -92,7 +92,20 @@ swalWithBootstrapButtons.fire({
  else{
    return (
    <div>
+    <section style={{
+      display:"flex",
+      alignItems:"center",
+      justifyContent:"space-between",
+      margin:"auto 5% "
+    }}>
     <h1>Product List</h1>
+    <article>
+      <span>Create New Product : </span>
+      <Link to="/newproduct">Click me!</Link>
+    </article>
+
+    </section>
+    
 
 
      {products.length !==0 &&(

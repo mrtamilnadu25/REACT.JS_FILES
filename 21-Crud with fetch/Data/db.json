@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "3200",
+      "title": "wedeede",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": "143",
+        "count": 0
+      }
+    },
+    {
+      "id": "be74",
+      "title": "143",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    },
+    {
+      "id": "8377",
+      "title": "",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    },
+    {
+      "id": "86e5",
+      "title": "hhjhhjhj",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "oijijij",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": "02",
+        "count": "120"
+      }
+    },
+    {
+      "id": "a44e",
+      "title": "",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    },
+    {
+      "id": "971b",
+      "title": "",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    },
+    {
+      "id": "749e",
+      "title": "143",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "143",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": "143",
+        "count": "143"
+      }
+    }
+  ],
+  "user": [
+    {
+      "userName": "Mr_JAWADHU",
+      "Gmail": "mrjawadhu@gmail.com",
+      "Password": "Thalapathy143",
+      "Mobile No": 9751443143,
+      "Name": "Kesavan",
+      "id": "1ab3"
+    }
+  ]
+}

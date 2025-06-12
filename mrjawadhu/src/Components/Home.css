@@ -1,0 +1,10 @@
+.tvk1{
+    margin-top:30% ;
+    width: 50%;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 152, 209);
+}
