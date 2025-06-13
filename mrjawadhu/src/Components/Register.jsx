@@ -2,9 +2,12 @@ import {Paper,Typography,TextField,Button} from '@mui/material'
 import * as yup from "yup";
 import {useForm} from "react-hook-form";
 import {yupResolver} from "@hookform/resolvers/yup";
+import {useMediaQuery} from "react-responsive"
+import "./Register.css"
 
 let count =0
 const Register = () => {
+  // useMediaQuery()
 
   let schema=yup.object().shape({
     name      : yup.string().required("name is required").matches(/^[A-z][a-z]+ [A-z][a-z]+$/,"enter your fullname"),
@@ -19,8 +22,10 @@ const Register = () => {
     bacgroundColor:"red",
     display:"grid",
     gap:"20px",
-    marginLeft:"20%",
-    marginTop:"5%"
+    // marginLeft:"20%",
+    // marginTop:"5%",
+    // justifyContent:"center",
+
     
   }
   count++;
@@ -30,9 +35,17 @@ const Register = () => {
   let formInputData=(data)=>{
     console.log(data);
   }
+  // const isMobile=useMediaQuery({maxWidth:'960px'});
   return (
-    <>
-     <Paper elevation={20} style={paperStyle} component="form" onSubmit={handleSubmit(formInputData)} >
+    <div className='papers' style={{
+      // display:"flex",
+      // alignItems:"center",
+      // justifyContent:"center",
+      // marginTop:"5%",
+      // width: isMobile ? 300:400,
+      
+    }}>
+     <Paper  elevation={20} style={paperStyle} component="form" onSubmit={handleSubmit(formInputData)} >
       <Typography textAlign="center" variant="h6">
         Create Account-{count}
         {/* {""} */}
@@ -44,7 +57,7 @@ const Register = () => {
        <TextField label="mobile number" {...register("mobileNo")} error={!!errors.mobileNo} helperText={errors.mobileNo?.message}/>
        <Button variant="contained" type="submit">submit</Button>
     </Paper>
-    </>
+    </div>
   );
 };
 export default Register;
